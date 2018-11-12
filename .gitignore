@@ -232,4 +232,7 @@ gradle-app.setting
 **/build/
 
 
+# Ignoring the error of creating flutter app here
+myapp/
+
 # End of https://www.gitignore.io/api/java,maven,gradle,android,androidstudio
