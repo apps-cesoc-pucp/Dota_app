@@ -1,5 +1,9 @@
 package com.cesoc.apps.android.dotaapp.DotaApi;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 
 public class Heroe {
@@ -8,10 +12,29 @@ public class Heroe {
     private String large_name; // nombre extenso de Dota(name en JSON)
     private String primary_attr; // atributo principal
     private String attack_type;
-    private ArrayList<String> roles; // roles de heroe en el juego
-    public String img_URI;
-    public String icon_URI;
+    private ArrayList<String> rolesList; // roles de heroe en el juego
+    public  String img_URI;
+    public  String icon_URI;
 
+    // CONSTRUCTOR
+    public Heroe(JSONObject jsonObject) throws JSONException {
+        this.setId(jsonObject.getInt("id"));
+        this.setName(jsonObject.getString("localized_name"));
+        this.setLarge_name(jsonObject.getString("name"));
+        this.setPrimary_attr(jsonObject.getString("primary_attr"));
+        this.setAttack_type(jsonObject.getString("attack_type"));
+        this.img_URI = jsonObject.getString("img");
+        this.icon_URI = jsonObject.getString("icon");
+        // arreglo de roles de heroe
+        JSONArray jsonArrayRoles = jsonObject.getJSONArray("roles");
+        ArrayList<String> roles = new ArrayList<>();
+        for(int i=0; i<jsonArrayRoles.length(); i++){
+            roles.add(jsonArrayRoles.getString(i));
+        }
+        this.setRoles(roles);
+    }
+
+    // GETTERS Y SETTERS
     public int getId() {
         return id;
     }
@@ -48,9 +71,9 @@ public class Heroe {
     }
 
     public ArrayList<String> getRoles() {
-        return roles;
+        return rolesList;
     }
-    public void setRoles(ArrayList<String> roles) {
-        this.roles = roles;
+    public void setRoles(ArrayList<String> rolesList) {
+        this.rolesList = rolesList;
     }
 }

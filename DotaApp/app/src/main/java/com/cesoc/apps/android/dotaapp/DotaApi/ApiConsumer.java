@@ -2,14 +2,25 @@ package com.cesoc.apps.android.dotaapp.DotaApi;
 
 import android.net.Uri;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ApiConsumer implements IHeroes{
+
+    public static ArrayList<Heroe> chargeHeroesList() {
+        URL urlHeroes = buildUrl();
+        HeroesQueryTask heroesQuery = new HeroesQueryTask();
+        heroesQuery.execute(urlHeroes);
+        return heroesQuery.heroesList;
+    }
 
     // Metodo de contruccion de URL usando URLs de Api de Dota
     public static URL buildUrl() {
@@ -47,5 +58,16 @@ public class ApiConsumer implements IHeroes{
         } finally {
             urlConnection.disconnect();
         }
+    }
+
+    public static ArrayList<Heroe> getHeroesList(String jsonString) throws JSONException {
+        ArrayList<Heroe> heroesList = new ArrayList<>();
+        // transformamos el STRING recibido a un objeto JSON iterable
+        // OBS: SEGUN DOCUMENTACION DE API, DEVUELVE UN ARREGLO, POR ELLO SE RECIBE COMO JSONARRAY
+        JSONArray jsonArray = new JSONArray(jsonString);
+        for(int i=0; i<jsonArray.length(); i++){
+            heroesList.add(new Heroe(jsonArray.getJSONObject(i)));
+        }
+        return heroesList;
     }
 }
