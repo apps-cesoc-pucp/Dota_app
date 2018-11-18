@@ -12,6 +12,10 @@ public class Heroe {
     public String img_URI;
     public String icon_URI;
 
+    public Heroe(String name){
+        this.name=name;
+    }
+
     public int getId() {
         return id;
     }
