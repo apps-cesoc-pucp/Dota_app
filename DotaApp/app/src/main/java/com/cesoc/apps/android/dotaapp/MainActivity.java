@@ -2,6 +2,7 @@ package com.cesoc.apps.android.dotaapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.cesoc.apps.android.dotaapp.DotaApi.ApiConsumer;
@@ -20,10 +21,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tv_hello = findViewById(R.id.hello);
         heroesList = ApiConsumer.chargeHeroesList();
-        tv_hello.setText(" ");
-        for(Heroe heroe : heroesList){
-            tv_hello.append(heroe.getName());
-            tv_hello.append(heroe.getAttack_type());
+    }
+
+    public void changeHello(View view){
+        if(heroesList.isEmpty()){
+            tv_hello.setText("empty");
+        }else{
+            tv_hello.setText("no empty");
         }
 
     }
