@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+
 import com.cesoc.apps.android.dotaapp.R;
 
 
@@ -53,24 +54,25 @@ public class GridHeroeAdapter extends BaseAdapter {
 
             holder=new ViewHolder();
 
-            holder.textView=(TextView) convertView.findViewById(R.id.textView);
-            holder.imageView=(ImageView) convertView.findViewById(R.id.imageHeroGrid);
+            holder.textView = convertView.findViewById(R.id.textView);
+            holder.imageView = convertView.findViewById(R.id.imageHeroGrid);
             convertView.setTag(holder);
         }else{
             holder=(ViewHolder)convertView.getTag();
         }
-        String nombreActual=this.heroes.get(position).getName()+" ";
-        holder.textView.setText(nombreActual);
+        Heroe heroe = this.heroes.get(position);
+//        String nombreActual=this.heroes.get(position).getName() + " ";
+        holder.textView.setText(heroe.getName());
         holder.textView.getBackground().setAlpha(150);
 
         RequestOptions options=new RequestOptions();
         options.fitCenter();
-        Glide.with(this.context).load("http://7wallpapers.net/wp-content/uploads/15_Dota2-Abaddon.jpg").apply(options).into(holder.imageView);
+        Glide.with(this.context).load(heroe.getImg_URL()).apply(options).into(holder.imageView);
         return convertView;
 
     }
 
-    static class ViewHolder{
+    private static class ViewHolder{
         private TextView textView;
         private ImageView imageView;
     }
