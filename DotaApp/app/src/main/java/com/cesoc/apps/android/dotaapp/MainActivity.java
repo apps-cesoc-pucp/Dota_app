@@ -2,33 +2,51 @@ package com.cesoc.apps.android.dotaapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.TextView;
 
 import com.cesoc.apps.android.dotaapp.DotaApi.ApiConsumer;
 import com.cesoc.apps.android.dotaapp.DotaApi.Heroe;
+import com.cesoc.apps.android.dotaapp.DotaApi.IAsyncResponse;
+import com.cesoc.apps.android.dotaapp.DotaApi.QueryTask;
 
+import org.json.JSONException;
+
+import java.net.URL;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
 
-    ArrayList<Heroe> heroesList;
+public class MainActivity extends AppCompatActivity implements IAsyncResponse {
+
     TextView tv_hello;
+    QueryTask heroesQueryTask = new QueryTask();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv_hello = findViewById(R.id.hello);
-        heroesList = ApiConsumer.chargeHeroesList();
+
+        // PETICION DE DATA DE HEROES Y LLENADO DE GRILLA
+        URL heroesURL = ApiConsumer.buildUrl(ApiConsumer.getUriHeroes());
+        heroesQueryTask.delegate = this;
+        heroesQueryTask.execute(heroesURL);
     }
 
-    public void changeHello(View view){
-        if(heroesList.isEmpty()){
-            tv_hello.setText("empty");
-        }else{
-            tv_hello.setText("no empty");
-        }
 
+    /* DELEGADO POR onPostExecute() de QueryTask */
+    /* LLENADO DE GRILLA */
+    @Override
+    public void processFinish(String jsonString){
+        // lista de heroes obtenida
+        ArrayList<Heroe> heroesList;
+        try {
+            heroesList = ApiConsumer.getHeroesList(jsonString);
+            // llenado en la grilla
+            tv_hello.setText(heroesList.get(0).getName());
+
+        } catch (JSONException e) {
+            tv_hello.setText("ERROR");
+            e.printStackTrace();
+        }
     }
 }
