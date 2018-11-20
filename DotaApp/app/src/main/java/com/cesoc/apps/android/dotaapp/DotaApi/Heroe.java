@@ -34,6 +34,11 @@ public class Heroe {
         this.setRoles(roles);
     }
 
+
+    public Heroe(String name){
+        this.name=name;
+    }
+
     // GETTERS Y SETTERS
     public int getId() {
         return id;

@@ -1,29 +1,29 @@
 package com.cesoc.apps.android.dotaapp;
 
+import com.cesoc.apps.android.dotaapp.DotaApi.Heroe;
+import com.cesoc.apps.android.dotaapp.DotaApi.ApiConsumer;
+import com.cesoc.apps.android.dotaapp.DotaApi.IAsyncResponse;
+import com.cesoc.apps.android.dotaapp.DotaApi.QueryTask;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.cesoc.apps.android.dotaapp.DotaApi.ApiConsumer;
-import com.cesoc.apps.android.dotaapp.DotaApi.Heroe;
-import com.cesoc.apps.android.dotaapp.DotaApi.IAsyncResponse;
-import com.cesoc.apps.android.dotaapp.DotaApi.QueryTask;
-
-import org.json.JSONException;
-
-import java.net.URL;
 import java.util.ArrayList;
-
+import org.json.JSONException;
+import java.net.URL;
 
 public class MainActivity extends AppCompatActivity implements IAsyncResponse {
 
     TextView tv_hello;
     QueryTask heroesQueryTask = new QueryTask();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         tv_hello = findViewById(R.id.hello);
 
         // PETICION DE DATA DE HEROES Y LLENADO DE GRILLA
