@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeroeActivity">
+    <!-- TODO(1) (TEXTVIEW) NOMBRE DE HEROE -->
+
+    <!-- TODO(2) (IMAGEVIEW) IMAGEN DE HEROE DEBAJO -->
+
+    <!-- TODO(3) (TEXTVIEW) OVERVIEW -->
+
+    <!-- TODO(4) (???) TABLA DE BOTONES SOBRE INFO DE HEROE -->
+    <!-- 1. LANE PRESENCE -->
+    <!-- 2. RADING GUIDE -->
+    <!-- 3. MOST POPULAR ABILITY BUILD -->  <!-- siguiente activity -->
+    <!-- 4. BEST VERSUS -->
+    <!-- 5. WORST VERSUS -->
+    <TextView
+        android:id="@+id/heroeName"
+        android:text="@string/heroe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</android.support.constraint.ConstraintLayout>

@@ -56,6 +56,8 @@ public class GridHeroeAdapter extends BaseAdapter {
 
             holder.textView = convertView.findViewById(R.id.textView);
             holder.imageView = convertView.findViewById(R.id.imageHeroGrid);
+
+
             convertView.setTag(holder);
         }else{
             holder=(ViewHolder)convertView.getTag();
