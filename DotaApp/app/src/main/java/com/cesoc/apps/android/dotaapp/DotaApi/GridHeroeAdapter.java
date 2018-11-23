@@ -1,6 +1,8 @@
 package com.cesoc.apps.android.dotaapp.DotaApi;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +15,6 @@ import com.bumptech.glide.request.RequestOptions;
 
 import com.cesoc.apps.android.dotaapp.R;
 
-
 import java.util.List;
 
 public class GridHeroeAdapter extends BaseAdapter {
@@ -21,11 +22,13 @@ public class GridHeroeAdapter extends BaseAdapter {
     private Context context;
     private int layout;
     private List<Heroe> heroes;
+    private Intent intent;
 
-    public GridHeroeAdapter(Context context, int layout, List<Heroe> heroes){
+    public GridHeroeAdapter(Context context, int layout, List<Heroe> heroes, Intent intent){
         this.context=context;
         this.layout=layout;
         this.heroes=heroes;
+        this.intent = intent;
     }
 
     @Override
@@ -43,10 +46,12 @@ public class GridHeroeAdapter extends BaseAdapter {
         return i;
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
 
         ViewHolder holder;
+        final Heroe heroe = this.heroes.get(position);
 
         if(convertView==null){
             LayoutInflater layoutInflater= LayoutInflater.from(this.context);
@@ -57,12 +62,20 @@ public class GridHeroeAdapter extends BaseAdapter {
             holder.textView = convertView.findViewById(R.id.textView);
             holder.imageView = convertView.findViewById(R.id.imageHeroGrid);
 
+            // metodo para pasar a info de heroe al clickear imagen
+            holder.imageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+//                    intent.putExtra("heroe","gross");
+                    intent.putExtra("heroe", heroe);
+                    context.startActivity(intent);
+                }
+            });
 
             convertView.setTag(holder);
         }else{
             holder=(ViewHolder)convertView.getTag();
         }
-        Heroe heroe = this.heroes.get(position);
 //        String nombreActual=this.heroes.get(position).getName() + " ";
         holder.textView.setText(heroe.getName());
         holder.textView.getBackground().setAlpha(150);

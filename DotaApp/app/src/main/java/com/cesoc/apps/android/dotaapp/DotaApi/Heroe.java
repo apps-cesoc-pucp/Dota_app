@@ -1,12 +1,15 @@
 package com.cesoc.apps.android.dotaapp.DotaApi;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-public class Heroe implements IHeroes{
+public class Heroe implements IHeroes, Parcelable {
 
     private int id;
     private String name; // nombre de juego(localized_name en JSON)
@@ -91,4 +94,50 @@ public class Heroe implements IHeroes{
     public void setIcon_URL(String icon_URL) {
         this.icon_URL = icon_URL;
     }
+
+
+    /* PARCELABLE PARA PASAR OBJETO HEROE POR MEDIO DE INTENTS */
+    public Heroe(Parcel parcel){
+        int id = parcel.readInt();
+
+        this.name = parcel.readString();
+        this.large_name = parcel.readString();
+        this.primary_attr = parcel.readString();
+        this.attack_type = parcel.readString();
+
+        this.rolesList = parcel.createStringArrayList();
+
+        this.img_URL = parcel.readString();
+        this.icon_URL = parcel.readString();
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int flags) {
+        parcel.writeInt(this.id);
+
+        parcel.writeString(this.name);
+        parcel.writeString(this.large_name);
+        parcel.writeString(this.primary_attr);
+        parcel.writeString(this.attack_type);
+
+        parcel.writeStringList(this.rolesList);
+
+        parcel.writeString(this.img_URL);
+        parcel.writeString(this.icon_URL);
+    }
+
+    public static final Parcelable.Creator<Heroe>CREATOR = new Parcelable.Creator<Heroe>(){
+        public Heroe createFromParcel(Parcel in) {
+            return new Heroe(in);
+        }
+
+        public Heroe[] newArray(int size) {
+            return new Heroe[size];
+        }
+    };
 }

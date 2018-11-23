@@ -16,11 +16,10 @@ public class HeroeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_heroe);
 
+        // textView de ejemplo, eliminar para nuevo disenio de activity
         tv_heroeName = findViewById(R.id.heroeName);
 
-        heroe = (Heroe) getIntent().getSerializableExtra("heroe");
+        heroe = getIntent().getParcelableExtra("heroe");
         tv_heroeName.setText(heroe.getName());
     }
-
-
 }

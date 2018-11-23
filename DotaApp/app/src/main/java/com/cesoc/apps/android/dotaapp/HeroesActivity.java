@@ -21,8 +21,11 @@ import java.util.ArrayList;
 
 public class HeroesActivity extends AppCompatActivity implements IAsyncResponse {
 
+    public String a;
     private GridView gridView;
     private QueryTask heroesQueryTask = new QueryTask();
+    private Intent intent;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,12 +33,12 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
         setContentView(R.layout.activity_heroes);
         gridView=findViewById(R.id.grillaHeroes);
 
+        intent = new Intent(this, HeroeActivity.class);
 
         // PETICION DE DATA DE HEROES Y LLENADO DE GRILLA
         URL heroesURL = ApiConsumer.buildUrl(ApiConsumer.getUriHeroes());
         heroesQueryTask.delegate = this;
         heroesQueryTask.execute(heroesURL);
-
     }
 
     @Override
@@ -45,7 +48,8 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
         try {
             heroesList = ApiConsumer.getHeroesList(jsonString);
             // llenado en la grilla
-            GridHeroeAdapter adapter= new GridHeroeAdapter(HeroesActivity.this, R.layout.grid_heroe_item, heroesList);
+            GridHeroeAdapter adapter= new GridHeroeAdapter(HeroesActivity.this,
+                                        R.layout.grid_heroe_item, heroesList, intent);
             gridView.setAdapter(adapter);
         } catch (JSONException e) {
             e.printStackTrace();
@@ -53,10 +57,9 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
     }
 
     // metodo para imagen de Heroe
-    void onClickHeroe(View view){
+    public void onClickHeroe(View view){
         // cómo obtener la imagen y el objeto Heroe al que pertenece?
         // INTENT para pasar al siguiente activity
-        Intent intent = new Intent(this, HeroeActivity.class);
         // heroe a pasar para presentar datos (nombre y estadisticas, reemplazar la sgt linea)
         Heroe heroe = null;
         // pase de heroe
