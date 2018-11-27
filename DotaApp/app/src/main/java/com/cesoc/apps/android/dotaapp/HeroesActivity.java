@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 
@@ -15,7 +16,6 @@ import com.cesoc.apps.android.dotaapp.DotaApi.QueryTask;
 
 import org.json.JSONException;
 
-import java.io.Serializable;
 import java.net.URL;
 import java.util.ArrayList;
 
@@ -24,7 +24,6 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
     public String a;
     private GridView gridView;
     private QueryTask heroesQueryTask = new QueryTask();
-    private Intent intent;
 
 
     @Override
@@ -32,9 +31,6 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_heroes);
         gridView=findViewById(R.id.grillaHeroes);
-
-        intent = new Intent(this, HeroeActivity.class);
-
         // PETICION DE DATA DE HEROES Y LLENADO DE GRILLA
         URL heroesURL = ApiConsumer.buildUrl(ApiConsumer.getUriHeroes());
         heroesQueryTask.delegate = this;
@@ -44,12 +40,22 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
     @Override
     public void processFinish(String jsonString) {
         // lista de heroes obtenida
-        ArrayList<Heroe> heroesList;
+        final ArrayList<Heroe> heroesList;
         try {
             heroesList = ApiConsumer.getHeroesList(jsonString);
+            //Metodo para ir al Activity de Heroe
+            gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    final Heroe HEROE=heroesList.get(i);
+                    Intent intent=new Intent(HeroesActivity.this, HeroeActivity.class);
+                    intent.putExtra("heroe",HEROE);
+                    startActivity(intent);
+                }
+            });
             // llenado en la grilla
             GridHeroeAdapter adapter= new GridHeroeAdapter(HeroesActivity.this,
-                                        R.layout.grid_heroe_item, heroesList, intent);
+                                        R.layout.grid_heroe_item, heroesList);
             gridView.setAdapter(adapter);
         } catch (JSONException e) {
             e.printStackTrace();
@@ -57,13 +63,14 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
     }
 
     // metodo para imagen de Heroe
-    public void onClickHeroe(View view){
+    /*public void onClickHeroe(View view){
         // cómo obtener la imagen y el objeto Heroe al que pertenece?
         // INTENT para pasar al siguiente activity
         // heroe a pasar para presentar datos (nombre y estadisticas, reemplazar la sgt linea)
         Heroe heroe = null;
         // pase de heroe
+
         intent.putExtra("heroe", (Serializable) heroe);
         startActivity(intent);
-    }
+    }*/
 }

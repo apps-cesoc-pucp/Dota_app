@@ -13,6 +13,8 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
+import com.cesoc.apps.android.dotaapp.HeroeActivity;
+import com.cesoc.apps.android.dotaapp.HeroesActivity;
 import com.cesoc.apps.android.dotaapp.R;
 
 import java.util.List;
@@ -22,13 +24,11 @@ public class GridHeroeAdapter extends BaseAdapter {
     private Context context;
     private int layout;
     private List<Heroe> heroes;
-    private Intent intent;
 
-    public GridHeroeAdapter(Context context, int layout, List<Heroe> heroes, Intent intent){
+    public GridHeroeAdapter(Context context, int layout, List<Heroe> heroes){
         this.context=context;
         this.layout=layout;
         this.heroes=heroes;
-        this.intent = intent;
     }
 
     @Override
@@ -61,16 +61,6 @@ public class GridHeroeAdapter extends BaseAdapter {
 
             holder.textView = convertView.findViewById(R.id.textView);
             holder.imageView = convertView.findViewById(R.id.imageHeroGrid);
-
-            // metodo para pasar a info de heroe al clickear imagen
-            holder.imageView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-//                    intent.putExtra("heroe","gross");
-                    intent.putExtra("heroe", heroe);
-                    context.startActivity(intent);
-                }
-            });
 
             convertView.setTag(holder);
         }else{

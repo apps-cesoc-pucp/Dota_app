@@ -21,5 +21,6 @@ public class HeroeActivity extends AppCompatActivity {
 
         heroe = getIntent().getParcelableExtra("heroe");
         tv_heroeName.setText(heroe.getName());
+
     }
 }
