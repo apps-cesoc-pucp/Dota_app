@@ -61,16 +61,4 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
             e.printStackTrace();
         }
     }
-
-    // metodo para imagen de Heroe
-    /*public void onClickHeroe(View view){
-        // cómo obtener la imagen y el objeto Heroe al que pertenece?
-        // INTENT para pasar al siguiente activity
-        // heroe a pasar para presentar datos (nombre y estadisticas, reemplazar la sgt linea)
-        Heroe heroe = null;
-        // pase de heroe
-
-        intent.putExtra("heroe", (Serializable) heroe);
-        startActivity(intent);
-    }*/
 }
