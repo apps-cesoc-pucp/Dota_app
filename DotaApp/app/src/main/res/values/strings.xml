@@ -3,4 +3,8 @@
     <string name="heroe">HEROE</string>
     <string name="todo">TODO</string>
     <string name="textview">TextView</string>
+
+    <string name="first_button" >Agilidad</string>
+    <string name="second_button">Fuerza</string>
+    <string name="third_button" >Inteligencia</string>
 </resources>

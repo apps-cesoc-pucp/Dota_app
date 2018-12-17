@@ -24,7 +24,7 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
     public String a;
     private GridView gridView;
     private QueryTask heroesQueryTask = new QueryTask();
-
+    private ArrayList<Heroe> heroesList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +40,6 @@ public class HeroesActivity extends AppCompatActivity implements IAsyncResponse 
     @Override
     public void processFinish(String jsonString) {
         // lista de heroes obtenida
-        final ArrayList<Heroe> heroesList;
         try {
             heroesList = ApiConsumer.getHeroesList(jsonString);
             //Metodo para ir al Activity de Heroe

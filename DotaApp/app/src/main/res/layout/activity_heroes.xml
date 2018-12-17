@@ -17,22 +17,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/black"
-            android:text="Agilidad"
+            android:text="@string/first_button"
             android:textColor="@android:color/white"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/black"
             android:textColor="@android:color/white"
-            android:text="Fuerza"
-            android:layout_weight="1"/>
+            android:text="@string/second_button"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="match_parent"
             android:background="@android:color/black"
             android:layout_weight="1"
             android:textColor="@android:color/white"
-            android:text="Inteligencia"
+            android:text="@string/third_button"
             android:layout_height="match_parent" />
     </LinearLayout>
 
@@ -50,8 +52,5 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"></GridView>
-
-
-
+        app:layout_constraintVertical_bias="0.0" />
 </LinearLayout>
