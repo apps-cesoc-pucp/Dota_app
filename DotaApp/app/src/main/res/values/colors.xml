@@ -3,4 +3,9 @@
     <color name="colorPrimary">#F44336</color>
     <color name="colorPrimaryDark">#D32F2F</color>
     <color name="colorAccent">#795548</color>
+    <color name="background">#111111</color>
+
+    <color name="agilidad">#00BFA5</color>
+    <color name="fuerza">#DD2C00</color>
+    <color name="inteligencia">#01579B</color>
 </resources>

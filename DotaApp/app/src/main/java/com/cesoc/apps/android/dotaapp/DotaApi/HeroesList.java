@@ -5,15 +5,27 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class HeroesList {
+    private final String ATTR1 = "agi";
+    private final String ATTR2 = "str";
+    private final String ATTR3 = "int";
+
     public ArrayList<Heroe> heroesFuerza = new ArrayList<>();
     public ArrayList<Heroe> heroesAgilidad= new ArrayList<>();
     public ArrayList<Heroe> heroesInteligencia = new ArrayList<>();
 
     public HeroesList(ArrayList<Heroe> heroesList){
         for (Heroe heroe : heroesList) {
-            heroesAgilidad.add(heroe);
-            heroesFuerza.add(heroe);
-            heroesInteligencia.add(heroe);
+            switch (heroe.getPrimary_attr()){
+                case ATTR1:
+                    heroesAgilidad.add(heroe);
+                    break;
+                case ATTR2:
+                    heroesFuerza.add(heroe);
+                    break;
+                case ATTR3:
+                    heroesInteligencia.add(heroe);
+                    break;
+            }
         }
 
         Collections.sort(heroesAgilidad, ComparatorHeroes.sortAgilidad());
