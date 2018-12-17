@@ -13,32 +13,38 @@
         android:layout_weight="1"
         android:orientation="horizontal"
         android:background="@color/colorPrimaryDark">
+
         <Button
             android:id="@+id/btn_first"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="@android:color/black"
+            android:onClick="onClickAgilidad"
             android:text="@string/first_button"
             android:textColor="@android:color/white"
-            android:layout_weight="1"
             tools:ignore="ButtonStyle" />
+
         <Button
             android:id="@+id/btn_second"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/black"
-            android:textColor="@android:color/white"
-            android:text="@string/second_button"
             android:layout_weight="1"
+            android:background="@android:color/black"
+            android:onClick="onClickFuerza"
+            android:text="@string/second_button"
+            android:textColor="@android:color/white"
             tools:ignore="ButtonStyle" />
+
         <Button
             android:id="@+id/btn_third"
             android:layout_width="match_parent"
-            android:background="@android:color/black"
-            android:layout_weight="1"
-            android:textColor="@android:color/white"
-            android:text="@string/third_button"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:onClick="onClickInteligencia"
+            android:text="@string/third_button"
+            android:textColor="@android:color/white"
             tools:ignore="ButtonStyle" />
     </LinearLayout>
 
