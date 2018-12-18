@@ -20,7 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.HeroeActivity" />
+        <activity android:name=".Activities.HeroeActivity"
+            android:launchMode="singleInstance"/>
         <activity android:name=".Activities.PopularAbilityActivity" />
     </application>
 
