@@ -1,7 +1,9 @@
-package com.cesoc.apps.android.dotaapp;
+package com.cesoc.apps.android.dotaapp.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.cesoc.apps.android.dotaapp.R;
 
 public class PopularAbilityActivity extends AppCompatActivity {
 

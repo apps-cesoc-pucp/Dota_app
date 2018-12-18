@@ -1,4 +1,4 @@
-package com.cesoc.apps.android.dotaapp.DotaApi;
+package com.cesoc.apps.android.dotaapp.Adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
+import com.cesoc.apps.android.dotaapp.Models.Heroe;
 import com.cesoc.apps.android.dotaapp.R;
 
 import java.util.List;
@@ -66,7 +67,7 @@ public class GridHeroeAdapter extends BaseAdapter {
 //        String nombreActual=this.heroes.get(position).getName() + " ";
         holder.textView.setText(heroe.getName());
 
-        // Cambio de color de acuerdo a primery attribute de cada heroe
+        //Cambio de color de acuerdo a primery attribute de cada heroe
         if(heroe.getPrimary_attr().compareTo("agi")==0)
             holder.textView.setBackgroundColor(context.getResources().getColor(R.color.agilidad));
         else if(heroe.getPrimary_attr().compareTo("str")==0)

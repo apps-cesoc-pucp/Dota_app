@@ -1,9 +1,10 @@
-package com.cesoc.apps.android.dotaapp;
+package com.cesoc.apps.android.dotaapp.Activities;
 
-import com.cesoc.apps.android.dotaapp.DotaApi.Heroe;
+import com.cesoc.apps.android.dotaapp.Models.Heroe;
 import com.cesoc.apps.android.dotaapp.DotaApi.ApiConsumer;
 import com.cesoc.apps.android.dotaapp.DotaApi.IAsyncResponse;
 import com.cesoc.apps.android.dotaapp.DotaApi.QueryTask;
+import com.cesoc.apps.android.dotaapp.R;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

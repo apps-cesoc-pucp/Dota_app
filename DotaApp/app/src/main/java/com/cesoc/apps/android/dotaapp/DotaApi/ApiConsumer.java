@@ -2,6 +2,8 @@ package com.cesoc.apps.android.dotaapp.DotaApi;
 
 import android.net.Uri;
 
+import com.cesoc.apps.android.dotaapp.Models.Heroe;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 

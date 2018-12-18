@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HeroeActivity">
+    tools:context=".Activities.HeroeActivity">
     <!-- TODO(1) (TEXTVIEW) NOMBRE DE HEROE -->
 
     <!-- TODO(2) (IMAGEVIEW) IMAGEN DE HEROE DEBAJO -->

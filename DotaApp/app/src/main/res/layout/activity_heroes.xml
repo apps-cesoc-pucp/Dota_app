@@ -4,64 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
     android:orientation="vertical"
-    tools:context=".HeroesActivity">
+    android:background="@android:color/black"
+    tools:context=".Activities.HeroesActivity">
 
-    <LinearLayout
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal"
-        android:background="@color/colorPrimaryDark">
+        android:background="@color/colorPrimary"
+        app:tabIndicatorHeight="5dp"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabTextColor="@android:color/white"
+        >
+    </android.support.design.widget.TabLayout>
 
-        <Button
-            android:id="@+id/btn_first"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/black"
-            android:onClick="onClickAgilidad"
-            android:text="@string/first_button"
-            android:textColor="@android:color/white"
-            tools:ignore="ButtonStyle" />
-
-        <Button
-            android:id="@+id/btn_second"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/black"
-            android:onClick="onClickFuerza"
-            android:text="@string/second_button"
-            android:textColor="@android:color/white"
-            tools:ignore="ButtonStyle" />
-
-        <Button
-            android:id="@+id/btn_third"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/black"
-            android:onClick="onClickInteligencia"
-            android:text="@string/third_button"
-            android:textColor="@android:color/white"
-            tools:ignore="ButtonStyle" />
-    </LinearLayout>
-
-    <GridView
-        android:id="@+id/grillaHeroes"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="40"
-        android:columnWidth="120dp"
-        android:gravity="center"
-        android:numColumns="2"
-        android:stretchMode="columnWidth"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+
 </LinearLayout>

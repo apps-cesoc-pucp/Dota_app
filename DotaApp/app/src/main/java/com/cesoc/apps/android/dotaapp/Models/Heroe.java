@@ -1,7 +1,9 @@
-package com.cesoc.apps.android.dotaapp.DotaApi;
+package com.cesoc.apps.android.dotaapp.Models;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+
+import com.cesoc.apps.android.dotaapp.DotaApi.IHeroes;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HeroesListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <GridView
+        android:id="@+id/grillaHeroes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:columnWidth="120dp"
+        android:gravity="center"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        />
+
+</FrameLayout>

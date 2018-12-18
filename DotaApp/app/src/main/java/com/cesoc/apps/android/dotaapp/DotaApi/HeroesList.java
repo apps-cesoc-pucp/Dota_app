@@ -1,5 +1,7 @@
 package com.cesoc.apps.android.dotaapp.DotaApi;
 
+import com.cesoc.apps.android.dotaapp.Models.Heroe;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

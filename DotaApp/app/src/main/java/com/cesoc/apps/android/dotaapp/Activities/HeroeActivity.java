@@ -1,10 +1,11 @@
-package com.cesoc.apps.android.dotaapp;
+package com.cesoc.apps.android.dotaapp.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.cesoc.apps.android.dotaapp.DotaApi.Heroe;
+import com.cesoc.apps.android.dotaapp.Models.Heroe;
+import com.cesoc.apps.android.dotaapp.R;
 
 public class HeroeActivity extends AppCompatActivity {
 
