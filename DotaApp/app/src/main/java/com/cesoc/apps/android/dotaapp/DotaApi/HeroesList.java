@@ -30,20 +30,23 @@ public class HeroesList {
             }
         }
 
-        Collections.sort(heroesAgilidad, ComparatorHeroes.sortAgilidad());
-        Collections.sort(heroesFuerza, ComparatorHeroes.sortFuerza());
-        Collections.sort(heroesInteligencia, ComparatorHeroes.sortInteligencia());
+        Collections.sort(heroesAgilidad, ComparatorHeroes.sort());
+        Collections.sort(heroesFuerza, ComparatorHeroes.sort());
+        Collections.sort(heroesInteligencia, ComparatorHeroes.sort());
     }
 
     private static class ComparatorHeroes{
-        private static Comparator<Heroe> sortAgilidad(){
-            return (heroe, t1) -> Integer.compare(heroe.getId(), t1.getId());
-        }
-        private static Comparator<Heroe> sortFuerza(){
+//        private static Comparator<Heroe> sortAgilidad(){
+//            return (heroe, t1) -> heroe.getName().compareTo(t1.getName());
+//        }
+//        private static Comparator<Heroe> sortFuerza(){
+//            return (heroe, t1) -> heroe.getName().compareTo(t1.getName());
+//        }
+//        private static Comparator<Heroe> sortInteligencia(){
+//            return (heroe, t1) -> heroe.getName().compareTo(t1.getName());
+//        }
+        private static Comparator<Heroe> sort(){
             return (heroe, t1) -> heroe.getName().compareTo(t1.getName());
-        }
-        private static Comparator<Heroe> sortInteligencia(){
-            return (heroe, t1) -> heroe.getPrimary_attr().compareTo(t1.getPrimary_attr());
         }
     }
 
