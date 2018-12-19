@@ -64,8 +64,8 @@ public class GridHeroeAdapter extends BaseAdapter {
         }else{
             holder=(ViewHolder)convertView.getTag();
         }
-//        String nombreActual=this.heroes.get(position).getName() + " ";
-        holder.textView.setText(heroe.getName());
+        String nombreActual=heroe.getName() + " ";
+        holder.textView.setText(nombreActual);
 
         //Cambio de color de acuerdo a primery attribute de cada heroe
         if(heroe.getPrimary_attr().compareTo("agi")==0)

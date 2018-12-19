@@ -10,6 +10,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Heroe implements IHeroes, Parcelable {
 
@@ -21,11 +22,12 @@ public class Heroe implements IHeroes, Parcelable {
     private ArrayList<String> rolesList; // roles de heroe en el juego
     private String img_URL;
     private String icon_URL;
+    public ArrayList<Ability> abilitiesList = new ArrayList<>();
 
     // CONSTRUCTOR
     public Heroe(JSONObject jsonObject) throws JSONException {
         this.setId(jsonObject.getInt("id"));
-        this.setName(jsonObject.getString("localized_name")+" ");
+        this.setName(jsonObject.getString("localized_name"));
         this.setLarge_name(jsonObject.getString("name"));
         this.setPrimary_attr(jsonObject.getString("primary_attr"));
         this.setAttack_type(jsonObject.getString("attack_type"));
@@ -100,7 +102,7 @@ public class Heroe implements IHeroes, Parcelable {
 
     /* PARCELABLE PARA PASAR OBJETO HEROE POR MEDIO DE INTENTS */
     public Heroe(Parcel parcel){
-        int id = parcel.readInt();
+        this.id = parcel.readInt();
 
         this.name = parcel.readString();
         this.large_name = parcel.readString();
@@ -142,4 +144,17 @@ public class Heroe implements IHeroes, Parcelable {
             return new Heroe[size];
         }
     };
+
+
+    public void fill_Abilities(JSONObject heroeJson) throws JSONException {
+        // obtener todos los JSONobjects para guardarlos
+        for (Iterator<String> it = heroeJson.keys(); it.hasNext(); ) {
+            String key = it.next();
+            JSONObject abilityJson = heroeJson.getJSONObject(key);
+            String name_ability = abilityJson.getString("dname");
+            String description_ability = abilityJson.getString("desc");
+            String url_img_ability = "http://cdn.dota2.com/apps/dota2/images/abilities/"+ key +"_lg.png";
+            this.abilitiesList.add(new Ability(name_ability, description_ability, url_img_ability));
+        }
+    }
 }
