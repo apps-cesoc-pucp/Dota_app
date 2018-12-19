@@ -39,6 +39,7 @@ public class HeroeActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+
         // textView de ejemplo, eliminar para nuevo disenio de activity
         tv_heroeAux.setText(heroe.abilitiesList.get(0).getDescripcion());
     }
