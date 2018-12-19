@@ -22,12 +22,12 @@ public class Heroe implements IHeroes, Parcelable {
     private ArrayList<String> rolesList; // roles de heroe en el juego
     private String img_URL;
     private String icon_URL;
-    public ArrayList<Ability> abilitiesList;
+    public ArrayList<Ability> abilitiesList = new ArrayList<>();
 
     // CONSTRUCTOR
     public Heroe(JSONObject jsonObject) throws JSONException {
         this.setId(jsonObject.getInt("id"));
-        this.setName(jsonObject.getString("localized_name")+" ");
+        this.setName(jsonObject.getString("localized_name"));
         this.setLarge_name(jsonObject.getString("name"));
         this.setPrimary_attr(jsonObject.getString("primary_attr"));
         this.setAttack_type(jsonObject.getString("attack_type"));
@@ -148,7 +148,6 @@ public class Heroe implements IHeroes, Parcelable {
 
     public void fill_Abilities(JSONObject heroeJson) throws JSONException {
         // obtener todos los JSONobjects para guardarlos
-        this.abilitiesList = new ArrayList<>();
         for (Iterator<String> it = heroeJson.keys(); it.hasNext(); ) {
             String key = it.next();
             JSONObject abilityJson = heroeJson.getJSONObject(key);

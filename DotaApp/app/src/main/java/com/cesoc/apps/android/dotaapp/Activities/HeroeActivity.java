@@ -14,19 +14,21 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class HeroeActivity extends AppCompatActivity {
-
     Heroe heroe;
     TextView tv_heroeName;
+    TextView tv_heroeAux;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_heroe);
 
-        // textView de ejemplo, eliminar para nuevo disenio de activity
         tv_heroeName = findViewById(R.id.heroeName);
+        tv_heroeAux  = findViewById(R.id.textView);
 
         heroe = getIntent().getParcelableExtra("heroe");
+
+        // textView de ejemplo, eliminar para nuevo disenio de activity
         tv_heroeName.setText(heroe.getName());
 
         try {
@@ -36,10 +38,14 @@ public class HeroeActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+        // textView de ejemplo, eliminar para nuevo disenio de activity
+        tv_heroeAux.setText(heroe.abilitiesList.get(0).getDescripcion());
     }
 
+
     public String loadJSONFromAsset() {
-        String json = null;
+        String json;
         try {
             InputStream is = getAssets().open("abilities.json");
             int size = is.available();
