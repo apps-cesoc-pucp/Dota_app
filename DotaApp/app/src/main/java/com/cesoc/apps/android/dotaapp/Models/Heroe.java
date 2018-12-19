@@ -21,6 +21,7 @@ public class Heroe implements IHeroes, Parcelable {
     private ArrayList<String> rolesList; // roles de heroe en el juego
     private String img_URL;
     private String icon_URL;
+    public ArrayList<Ability> abilitiesList;
 
     // CONSTRUCTOR
     public Heroe(JSONObject jsonObject) throws JSONException {
@@ -100,7 +101,7 @@ public class Heroe implements IHeroes, Parcelable {
 
     /* PARCELABLE PARA PASAR OBJETO HEROE POR MEDIO DE INTENTS */
     public Heroe(Parcel parcel){
-        int id = parcel.readInt();
+        this.id = parcel.readInt();
 
         this.name = parcel.readString();
         this.large_name = parcel.readString();
@@ -142,4 +143,13 @@ public class Heroe implements IHeroes, Parcelable {
             return new Heroe[size];
         }
     };
+
+
+    public void fill_Abilities(){
+        // obtener todos los JSONobjects para guardarlos
+
+        // rellenar arrays
+
+        //
+    }
 }
