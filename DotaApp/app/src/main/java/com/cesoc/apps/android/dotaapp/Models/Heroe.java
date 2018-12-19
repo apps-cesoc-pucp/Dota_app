@@ -10,6 +10,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Heroe implements IHeroes, Parcelable {
 
@@ -145,11 +146,16 @@ public class Heroe implements IHeroes, Parcelable {
     };
 
 
-    public void fill_Abilities(){
+    public void fill_Abilities(JSONObject heroeJson) throws JSONException {
         // obtener todos los JSONobjects para guardarlos
-
-        // rellenar arrays
-
-        //
+        this.abilitiesList = new ArrayList<>();
+        for (Iterator<String> it = heroeJson.keys(); it.hasNext(); ) {
+            String key = it.next();
+            JSONObject abilityJson = heroeJson.getJSONObject(key);
+            String name_ability = abilityJson.getString("dname");
+            String description_ability = abilityJson.getString("desc");
+            String url_img_ability = "http://cdn.dota2.com/apps/dota2/images/abilities/"+ key +"_lg.png";
+            this.abilitiesList.add(new Ability(name_ability, description_ability, url_img_ability));
+        }
     }
 }

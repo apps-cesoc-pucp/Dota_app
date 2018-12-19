@@ -1,5 +1,5 @@
 {
-    "antimage": {
+    "Anti-Mage": {
         "antimage_mana_break": {
             "dname": "Ruptura de Maná",
             "affects": "HABILIDAD: <span class=\"attribVal\">Pasiva</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -45,7 +45,7 @@
             "hurl": "antimage"
         }
     },
-    "axe": {
+    "Axe": {
         "axe_berserkers_call": {
             "dname": "Llamada del Berserker",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -91,7 +91,7 @@
             "hurl": "axe"
         }
     },
-    "bane": {
+    "Bane": {
         "bane_enfeeble": {
             "dname": "Debilitar",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Héroes enemigos</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -137,7 +137,7 @@
             "hurl": "bane"
         }
     },
-    "bloodseeker": {
+    "Bloodseeker": {
         "bloodseeker_bloodrage": {
             "dname": "Furia Sangrienta",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Héroes</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -183,7 +183,7 @@
             "hurl": "bloodseeker"
         }
     },
-    "crystal_maiden": {
+    "Crystal Maiden": {
         "crystal_maiden_crystal_nova": {
             "dname": "Explosión Cristalina",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -229,7 +229,7 @@
             "hurl": "crystal_maiden"
         }
     },
-    "drow_ranger": {
+    "Drow Ranger": {
         "drow_ranger_frost_arrows": {
             "dname": "Flechas Gélidas",
             "affects": "HABILIDAD: <span class=\"attribVal\">Autolanzable, Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -275,7 +275,7 @@
             "hurl": "drow_ranger"
         }
     },
-    "earthshaker": {
+    "Earthshaker": {
         "earthshaker_fissure": {
             "dname": "Fisura",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -321,7 +321,7 @@
             "hurl": "earthshaker"
         }
     },
-    "juggernaut": {
+    "Juggernaut": {
         "juggernaut_blade_fury": {
             "dname": "Furia de la Hoja",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -367,7 +367,7 @@
             "hurl": "juggernaut"
         }
     },
-    "mirana": {
+    "Mirana": {
         "mirana_starfall": {
             "dname": "Tormenta Estelar",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -413,7 +413,7 @@
             "hurl": "mirana"
         }
     },
-    "nevermore": {
+    "Shadow Fiend": {
         "nevermore_shadowraze1": {
             "dname": "Sombra Arrasante",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -459,7 +459,7 @@
             "hurl": "nevermore"
         }
     },
-    "morphling": {
+    "Morphling": {
         "morphling_waveform": {
             "dname": "Forma de Ola",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -527,7 +527,7 @@
             "hurl": "morphling"
         }
     },
-    "phantom_lancer": {
+    "Phantom Lancer": {
         "phantom_lancer_spirit_lance": {
             "dname": "Lanza Espiritual",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -573,7 +573,7 @@
             "hurl": "phantom_lancer"
         }
     },
-    "puck": {
+    "Puck": {
         "puck_illusory_orb": {
             "dname": "Orbe Ilusorio",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -619,7 +619,7 @@
             "hurl": "puck"
         }
     },
-    "pudge": {
+    "Pudge": {
         "pudge_meat_hook": {
             "dname": "Gancho de Carne",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#d61107\">Puro</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -665,7 +665,7 @@
             "hurl": "pudge"
         }
     },
-    "razor": {
+    "Razor": {
         "razor_plasma_field": {
             "dname": "Campo de Plasma",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -711,7 +711,7 @@
             "hurl": "razor"
         }
     },
-    "sand_king": {
+    "Sand King": {
         "sandking_burrowstrike": {
             "dname": "Asalto Subterráneo",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -757,7 +757,7 @@
             "hurl": "sand_king"
         }
     },
-    "storm_spirit": {
+    "Storm Spirit": {
         "storm_spirit_static_remnant": {
             "dname": "Remanente Estático",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -803,7 +803,7 @@
             "hurl": "storm_spirit"
         }
     },
-    "sven": {
+    "Sven": {
         "sven_storm_bolt": {
             "dname": "Martillo de la Tormenta",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -895,7 +895,7 @@
             "hurl": "tiny"
         }
     },
-    "vengefulspirit": {
+    "Vengeful Spirit": {
         "vengefulspirit_magic_missile": {
             "dname": "Misil Mágico",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -941,7 +941,7 @@
             "hurl": "vengefulspirit"
         }
     },
-    "windrunner": {
+    "Windranger": {
         "windrunner_shackleshot": {
             "dname": "Disparo Encadenador",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -987,7 +987,7 @@
             "hurl": "windrunner"
         }
     },
-    "zuus": {
+    "Zeus": {
         "zuus_arc_lightning": {
             "dname": "Arco Eléctrico",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1033,7 +1033,7 @@
             "hurl": "zuus"
         }
     },
-    "kunkka": {
+    "Kunkka": {
         "kunkka_torrent": {
             "dname": "Torrente",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1079,7 +1079,7 @@
             "hurl": "kunkka"
         }
     },
-    "lina": {
+    "Lina": {
         "lina_dragon_slave": {
             "dname": "Esclavo Dracónico",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1125,7 +1125,7 @@
             "hurl": "lina"
         }
     },
-    "lich": {
+    "Lich": {
         "lich_frost_nova": {
             "dname": "Explosión Gélida",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1171,7 +1171,7 @@
             "hurl": "lich"
         }
     },
-    "lion": {
+    "Lion": {
         "lion_impale": {
             "dname": "Púa Terrenal",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1217,7 +1217,7 @@
             "hurl": "lion"
         }
     },
-    "shadow_shaman": {
+    "Shadow Shaman": {
         "shadow_shaman_ether_shock": {
             "dname": "Descarga Etérea",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1263,7 +1263,7 @@
             "hurl": "shadow_shaman"
         }
     },
-    "slardar": {
+    "Slardar": {
         "slardar_sprint": {
             "dname": "Carrera del Guardián",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />",
@@ -1309,7 +1309,7 @@
             "hurl": "slardar"
         }
     },
-    "tidehunter": {
+    "Tidehunter": {
         "tidehunter_gush": {
             "dname": "Borbotón",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1355,7 +1355,7 @@
             "hurl": "tidehunter"
         }
     },
-    "witch_doctor": {
+    "Witch Doctor": {
         "witch_doctor_paralyzing_cask": {
             "dname": "Barril Paralizante",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1401,7 +1401,7 @@
             "hurl": "witch_doctor"
         }
     },
-    "riki": {
+    "Riki": {
         "riki_smoke_screen": {
             "dname": "Cortina de Humo",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1447,7 +1447,7 @@
             "hurl": "riki"
         }
     },
-    "enigma": {
+    "Enigma": {
         "enigma_malefice": {
             "dname": "Maleficio",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1493,7 +1493,7 @@
             "hurl": "enigma"
         }
     },
-    "tinker": {
+    "Tinker": {
         "tinker_laser": {
             "dname": "Láser",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#d61107\">Puro</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1539,7 +1539,7 @@
             "hurl": "tinker"
         }
     },
-    "sniper": {
+    "Sniper": {
         "sniper_shrapnel": {
             "dname": "Metralla",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1585,7 +1585,7 @@
             "hurl": "sniper"
         }
     },
-    "necrolyte": {
+    "Necrophos": {
         "necrolyte_death_pulse": {
             "dname": "Pulso Mortal",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1631,7 +1631,7 @@
             "hurl": "necrolyte"
         }
     },
-    "warlock": {
+    "Warlock": {
         "warlock_fatal_bonds": {
             "dname": "Ataduras Funestas",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1677,7 +1677,7 @@
             "hurl": "warlock"
         }
     },
-    "beastmaster": {
+    "Beastmaster": {
         "beastmaster_wild_axes": {
             "dname": "Hachas Salvajes",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -1723,7 +1723,7 @@
             "hurl": "beastmaster"
         }
     },
-    "queenofpain": {
+    "Queen of Pain": {
         "queenofpain_shadow_strike": {
             "dname": "Golpe Sombrío",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1769,7 +1769,7 @@
             "hurl": "queenofpain"
         }
     },
-    "venomancer": {
+    "Venomancer": {
         "venomancer_venomous_gale": {
             "dname": "Vendaval Venenoso",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1815,7 +1815,7 @@
             "hurl": "venomancer"
         }
     },
-    "faceless_void": {
+    "Faceless Void": {
         "faceless_void_time_walk": {
             "dname": "Salto Temporal",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1861,7 +1861,7 @@
             "hurl": "faceless_void"
         }
     },
-    "skeleton_king": {
+    "Wraith King": {
         "skeleton_king_hellfire_blast": {
             "dname": "Explosión de Fuego Espectral",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1907,7 +1907,7 @@
             "hurl": "skeleton_king"
         }
     },
-    "death_prophet": {
+    "Death Prophet": {
         "death_prophet_carrion_swarm": {
             "dname": "Enjambre de la Cripta",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1953,7 +1953,7 @@
             "hurl": "death_prophet"
         }
     },
-    "phantom_assassin": {
+    "Phantom Assassin": {
         "phantom_assassin_stifling_dagger": {
             "dname": "Daga Sofocante",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -1999,7 +1999,7 @@
             "hurl": "phantom_assassin"
         }
     },
-    "pugna": {
+    "Pugna": {
         "pugna_nether_blast": {
             "dname": "Explosión Abisal",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2045,7 +2045,7 @@
             "hurl": "pugna"
         }
     },
-    "templar_assassin": {
+    "Templar Assassin": {
         "templar_assassin_refraction": {
             "dname": "Refracción",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -2091,7 +2091,7 @@
             "hurl": "templar_assassin"
         }
     },
-    "viper": {
+    "Viper": {
         "viper_poison_attack": {
             "dname": "Ataque Venenoso",
             "affects": "HABILIDAD: <span class=\"attribVal\">Autolanzable, Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2137,7 +2137,7 @@
             "hurl": "viper"
         }
     },
-    "luna": {
+    "Luna": {
         "luna_lucent_beam": {
             "dname": "Haz Lumínico",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2183,7 +2183,7 @@
             "hurl": "luna"
         }
     },
-    "dragon_knight": {
+    "Dragon Knight": {
         "dragon_knight_breathe_fire": {
             "dname": "Aliento de Fuego",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2229,7 +2229,7 @@
             "hurl": "dragon_knight"
         }
     },
-    "dazzle": {
+    "Dazzle": {
         "dazzle_poison_touch": {
             "dname": "Toque Venenoso",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2275,7 +2275,7 @@
             "hurl": "dazzle"
         }
     },
-    "rattletrap": {
+    "Clockwerk": {
         "rattletrap_battery_assault": {
             "dname": "Batería de Asalto",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2321,7 +2321,7 @@
             "hurl": "rattletrap"
         }
     },
-    "leshrac": {
+    "Leshrac": {
         "leshrac_split_earth": {
             "dname": "Dividir la Tierra",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2367,7 +2367,7 @@
             "hurl": "leshrac"
         }
     },
-    "furion": {
+    "Nature's Prophet": {
         "furion_sprout": {
             "dname": "Brotar",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Héroes</span><br />",
@@ -2413,7 +2413,7 @@
             "hurl": "furion"
         }
     },
-    "life_stealer": {
+    "Lifestealer": {
         "life_stealer_rage": {
             "dname": "Furia",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />",
@@ -2459,7 +2459,7 @@
             "hurl": "life_stealer"
         }
     },
-    "dark_seer": {
+    "Dark Seer": {
         "dark_seer_vacuum": {
             "dname": "Succión",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2505,7 +2505,7 @@
             "hurl": "dark_seer"
         }
     },
-    "clinkz": {
+    "Clinkz": {
         "clinkz_strafe": {
             "dname": "Andanada",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />",
@@ -2551,7 +2551,7 @@
             "hurl": "clinkz"
         }
     },
-    "omniknight": {
+    "Omniknight": {
         "omniknight_purification": {
             "dname": "Purificación",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades aliadas</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#d61107\">Puro</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -2597,7 +2597,7 @@
             "hurl": "omniknight"
         }
     },
-    "enchantress": {
+    "Enchantress": {
         "enchantress_untouchable": {
             "dname": "Intocable",
             "affects": "HABILIDAD: <span class=\"attribVal\">Pasiva</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2643,7 +2643,7 @@
             "hurl": "enchantress"
         }
     },
-    "huskar": {
+    "Huskar": {
         "huskar_inner_fire": {
             "dname": "Inner Fire",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2689,7 +2689,7 @@
             "hurl": "huskar"
         }
     },
-    "night_stalker": {
+    "Night Stalker": {
         "night_stalker_void": {
             "dname": "Vacío",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2735,7 +2735,7 @@
             "hurl": "night_stalker"
         }
     },
-    "broodmother": {
+    "Broodmother": {
         "broodmother_spawn_spiderlings": {
             "dname": "Engendrar Crías",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2781,7 +2781,7 @@
             "hurl": "broodmother"
         }
     },
-    "bounty_hunter": {
+    "Bounty Hunter": {
         "bounty_hunter_shuriken_toss": {
             "dname": "Lanzamiento de Shuriken",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2827,7 +2827,7 @@
             "hurl": "bounty_hunter"
         }
     },
-    "weaver": {
+    "Weaver": {
         "weaver_the_swarm": {
             "dname": "El Enjambre",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2873,7 +2873,7 @@
             "hurl": "weaver"
         }
     },
-    "jakiro": {
+    "Jakiro": {
         "jakiro_dual_breath": {
             "dname": "Aliento Dual",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2919,7 +2919,7 @@
             "hurl": "jakiro"
         }
     },
-    "batrider": {
+    "Batrider": {
         "batrider_sticky_napalm": {
             "dname": "Napalm Pegajoso",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -2965,7 +2965,7 @@
             "hurl": "batrider"
         }
     },
-    "chen": {
+    "Chen": {
         "chen_penitence": {
             "dname": "Penitencia",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3011,7 +3011,7 @@
             "hurl": "chen"
         }
     },
-    "spectre": {
+    "Spectre": {
         "spectre_spectral_dagger": {
             "dname": "Daga Espectral",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Héroes enemigos</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -3057,7 +3057,7 @@
             "hurl": "spectre"
         }
     },
-    "doom_bringer": {
+    "Doom": {
         "doom_bringer_devour": {
             "dname": "Devorar",
             "affects": "HABILIDAD: <span class=\"attribVal\">Autolanzable, Unidad objetivo</span><br />",
@@ -3103,7 +3103,7 @@
             "hurl": "doom_bringer"
         }
     },
-    "ancient_apparition": {
+    "Ancient Apparition": {
         "ancient_apparition_cold_feet": {
             "dname": "Pies Fríos",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3149,7 +3149,7 @@
             "hurl": "ancient_apparition"
         }
     },
-    "ursa": {
+    "Ursa": {
         "ursa_earthshock": {
             "dname": "Sacudida",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3195,7 +3195,7 @@
             "hurl": "ursa"
         }
     },
-    "spirit_breaker": {
+    "Spirit Breaker": {
         "spirit_breaker_charge_of_darkness": {
             "dname": "Embestida de la Oscuridad",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3241,7 +3241,7 @@
             "hurl": "spirit_breaker"
         }
     },
-    "gyrocopter": {
+    "Gyrocopter": {
         "gyrocopter_rocket_barrage": {
             "dname": "Andanada de Cohetes",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3287,7 +3287,7 @@
             "hurl": "gyrocopter"
         }
     },
-    "alchemist": {
+    "Alchemist": {
         "alchemist_acid_spray": {
             "dname": "Ácido Pulverizado",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3333,7 +3333,7 @@
             "hurl": "alchemist"
         }
     },
-    "invoker": {
+    "Invoker": {
         "invoker_quas": {
             "dname": "Quas",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />",
@@ -3368,7 +3368,7 @@
             "hurl": "invoker"
         }
     },
-    "silencer": {
+    "Silencer": {
         "silencer_curse_of_the_silent": {
             "dname": "Maldición Arcana",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3414,7 +3414,7 @@
             "hurl": "silencer"
         }
     },
-    "obsidian_destroyer": {
+    "Outworld Devourer": {
         "obsidian_destroyer_arcane_orb": {
             "dname": "Orbe Arcano",
             "affects": "HABILIDAD: <span class=\"attribVal\">Autolanzable, Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#d61107\">Puro</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3460,7 +3460,7 @@
             "hurl": "obsidian_destroyer"
         }
     },
-    "lycan": {
+    "Lycan": {
         "lycan_summon_wolves": {
             "dname": "Invocar Lobos",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />",
@@ -3506,7 +3506,7 @@
             "hurl": "lycan"
         }
     },
-    "brewmaster": {
+    "Brewmaster": {
         "brewmaster_thunder_clap": {
             "dname": "Palmada Atronadora",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3552,7 +3552,7 @@
             "hurl": "brewmaster"
         }
     },
-    "shadow_demon": {
+    "Shadow Demon": {
         "shadow_demon_disruption": {
             "dname": "Trastorno",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3598,7 +3598,7 @@
             "hurl": "shadow_demon"
         }
     },
-    "lone_druid": {
+    "Lone Druid": {
         "lone_druid_spirit_bear": {
             "dname": "Invocar Espíritu Oso",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />",
@@ -3644,7 +3644,7 @@
             "hurl": "lone_druid"
         }
     },
-    "chaos_knight": {
+    "Chaos Knight": {
         "chaos_knight_chaos_bolt": {
             "dname": "Rayo del Caos",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3690,7 +3690,7 @@
             "hurl": "chaos_knight"
         }
     },
-    "meepo": {
+    "Meepo": {
         "meepo_earthbind": {
             "dname": "Ataduras Terrenales",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3736,7 +3736,7 @@
             "hurl": "meepo"
         }
     },
-    "treant": {
+    "Treant Protector": {
         "treant_natures_guise": {
             "dname": "Apariencia de la Naturaleza",
             "affects": "HABILIDAD: <span class=\"attribVal\">Pasiva</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />",
@@ -3782,7 +3782,7 @@
             "hurl": "treant"
         }
     },
-    "ogre_magi": {
+    "Ogre Magi": {
         "ogre_magi_fireblast": {
             "dname": "Explosión de Fuego",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3828,7 +3828,7 @@
             "hurl": "ogre_magi"
         }
     },
-    "undying": {
+    "Undying": {
         "undying_decay": {
             "dname": "Descomponer",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3874,7 +3874,7 @@
             "hurl": "undying"
         }
     },
-    "rubick": {
+    "Rubick": {
         "rubick_telekinesis": {
             "dname": "Telequinesis",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3920,7 +3920,7 @@
             "hurl": "rubick"
         }
     },
-    "disruptor": {
+    "Disruptor": {
         "disruptor_thunder_strike": {
             "dname": "Impacto Atronador",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -3966,7 +3966,7 @@
             "hurl": "disruptor"
         }
     },
-    "nyx_assassin": {
+    "Nyx Assassin": {
         "nyx_assassin_impale": {
             "dname": "Empalar",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4012,7 +4012,7 @@
             "hurl": "nyx_assassin"
         }
     },
-    "naga_siren": {
+    "Naga Siren": {
         "naga_siren_mirror_image": {
             "dname": "Espejismo",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />",
@@ -4058,7 +4058,7 @@
             "hurl": "naga_siren"
         }
     },
-    "keeper_of_the_light": {
+    "Keeper of the Light": {
         "keeper_of_the_light_illuminate": {
             "dname": "Iluminar",
             "affects": "HABILIDAD: <span class=\"attribVal\">Canalizada, Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4104,7 +4104,7 @@
             "hurl": "keeper_of_the_light"
         }
     },
-    "wisp": {
+    "Io": {
         "wisp_tether": {
             "dname": "Vínculo",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Aliados</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -4150,7 +4150,7 @@
             "hurl": "wisp"
         }
     },
-    "visage": {
+    "Visage": {
         "visage_grave_chill": {
             "dname": "Frío Sepulcral",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4196,7 +4196,7 @@
             "hurl": "visage"
         }
     },
-    "slark": {
+    "Slark": {
         "slark_dark_pact": {
             "dname": "Pacto Oscuro",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4242,7 +4242,7 @@
             "hurl": "slark"
         }
     },
-    "medusa": {
+    "Medusa": {
         "medusa_split_shot": {
             "dname": "Disparo Dividido",
             "affects": "HABILIDAD: <span class=\"attribVal\">Pasiva</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -4288,7 +4288,7 @@
             "hurl": "medusa"
         }
     },
-    "troll_warlord": {
+    "Troll Warlord": {
         "troll_warlord_berserkers_rage": {
             "dname": "Furia de Berserker",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo, Activación</span><br />",
@@ -4345,7 +4345,7 @@
             "hurl": "troll_warlord"
         }
     },
-    "centaur": {
+    "Centaur Warrunner": {
         "centaur_hoof_stomp": {
             "dname": "Pisotón",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4391,7 +4391,7 @@
             "hurl": "centaur"
         }
     },
-    "magnataur": {
+    "Magnus": {
         "magnataur_shockwave": {
             "dname": "Onda Sísmica",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4437,7 +4437,7 @@
             "hurl": "magnataur"
         }
     },
-    "shredder": {
+    "Timbersaw": {
         "shredder_whirling_death": {
             "dname": "Muerte Radial",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#d61107\">Puro</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4483,7 +4483,7 @@
             "hurl": "shredder"
         }
     },
-    "bristleback": {
+    "Bristleback": {
         "bristleback_viscous_nasal_goo": {
             "dname": "Viscosidad Nasal",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4529,7 +4529,7 @@
             "hurl": "bristleback"
         }
     },
-    "tusk": {
+    "Tusk": {
         "tusk_ice_shards": {
             "dname": "Fragmentos de Hielo",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4575,7 +4575,7 @@
             "hurl": "tusk"
         }
     },
-    "Skywrath_Mage": {
+    "Skywrath Mage": {
         "skywrath_mage_arcane_bolt": {
             "dname": "Proyectil Arcano",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4621,7 +4621,7 @@
             "hurl": "Skywrath_Mage"
         }
     },
-    "abaddon": {
+    "Abaddon": {
         "abaddon_death_coil": {
             "dname": "Espiral de la Niebla",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Héroes</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -4667,7 +4667,7 @@
             "hurl": "abaddon"
         }
     },
-    "elder_titan": {
+    "Elder Titan": {
         "elder_titan_echo_stomp": {
             "dname": "Pisotón Resonante",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo, Canalizada</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4713,7 +4713,7 @@
             "hurl": "elder_titan"
         }
     },
-    "legion_commander": {
+    "Legion Commander": {
         "legion_commander_overwhelming_odds": {
             "dname": "Probabilidades Adversas",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4759,7 +4759,7 @@
             "hurl": "legion_commander"
         }
     },
-    "ember_spirit": {
+    "Ember Spirit": {
         "ember_spirit_searing_chains": {
             "dname": "Cadenas Abrasadoras",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4805,7 +4805,7 @@
             "hurl": "ember_spirit"
         }
     },
-    "earth_spirit": {
+    "Earth Spirit": {
         "earth_spirit_boulder_smash": {
             "dname": "Golpe de Roca",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo, Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Héroes</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4851,7 +4851,7 @@
             "hurl": "earth_spirit"
         }
     },
-    "abyssal_underlord": {
+    "Underlord": {
         "abyssal_underlord_firestorm": {
             "dname": "Tormenta de Fuego",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4897,7 +4897,7 @@
             "hurl": "abyssal_underlord"
         }
     },
-    "terrorblade": {
+    "Terrorblade": {
         "terrorblade_reflection": {
             "dname": "Reflejo",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4943,7 +4943,7 @@
             "hurl": "terrorblade"
         }
     },
-    "phoenix": {
+    "Phoenix": {
         "phoenix_icarus_dive": {
             "dname": "Picado de Ícaro",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -4989,7 +4989,7 @@
             "hurl": "phoenix"
         }
     },
-    "techies": {
+    "Techies": {
         "techies_land_mines": {
             "dname": "Minas de Proximidad",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -5035,7 +5035,7 @@
             "hurl": "techies"
         }
     },
-    "oracle": {
+    "Oracle": {
         "oracle_fortunes_end": {
             "dname": "Fin de la Fortuna",
             "affects": "HABILIDAD: <span class=\"attribVal\">Canalizada, Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Héroes</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -5081,7 +5081,7 @@
             "hurl": "oracle"
         }
     },
-    "winter_wyvern": {
+    "Winter Wyvern": {
         "winter_wyvern_arctic_burn": {
             "dname": "Quemadura Ártica",
             "affects": "HABILIDAD: <span class=\"attribVal\">Sin objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -5127,7 +5127,7 @@
             "hurl": "winter_wyvern"
         }
     },
-    "arc_warden": {
+    "Arc Warden": {
         "arc_warden_flux": {
             "dname": "Flujo",
             "affects": "HABILIDAD: <span class=\"attribVal\">Unidad objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -5173,7 +5173,7 @@
             "hurl": "arc_warden"
         }
     },
-    "pangolier": {
+    "Pangolier": {
         "pangolier_swashbuckle": {
             "dname": "Bravuconería",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\"><font color=\"#70EA72\">Sí</font></span><br />",
@@ -5219,7 +5219,7 @@
             "hurl": "pangolier"
         }
     },
-    "grimstroke": {
+    "Grimstroke": {
         "grimstroke_dark_artistry": {
             "dname": "Trazo del Destino",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -5265,7 +5265,7 @@
             "hurl": "grimstroke"
         }
     },
-    "dark_willow": {
+    "Dark Willow": {
         "dark_willow_bramble_maze": {
             "dname": "Laberinto de Zarzas",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\">Mágico</span><br />ATRAVIESA INMUNIDAD A HECHIZOS: <span class=\"attribVal\">No</span><br />",
@@ -5322,7 +5322,7 @@
             "hurl": "dark_willow"
         }
     },
-    "monkey_king": {
+    "Monkey King": {
         "monkey_king_boundless_strike": {
             "dname": "Golpe Infinito",
             "affects": "HABILIDAD: <span class=\"attribVal\">Punto objetivo</span><br />AFECTA A: <span class=\"attribVal\">Unidades enemigas</span><br />TIPO DE DAÑO: <span class=\"attribVal\"><font color=\"#71a9ea\">Físico</font></span><br />",
