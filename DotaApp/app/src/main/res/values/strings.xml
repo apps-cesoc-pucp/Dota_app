@@ -8,6 +8,8 @@
     <string name="second_button">Fuerza</string>
     <string name="third_button">Inteligencia</string>
 
+    <string name="Abilities">Abilities</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

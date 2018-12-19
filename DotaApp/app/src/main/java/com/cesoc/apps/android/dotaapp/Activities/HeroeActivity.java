@@ -2,26 +2,34 @@ package com.cesoc.apps.android.dotaapp.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ListView;
 import android.widget.TextView;
 
+import com.cesoc.apps.android.dotaapp.Adapters.ListAbilityAdapter;
 import com.cesoc.apps.android.dotaapp.Models.Heroe;
 import com.cesoc.apps.android.dotaapp.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class HeroeActivity extends AppCompatActivity {
 
     Heroe heroe;
     TextView tv_heroeName;
+    ListView listViewAbilities;
+
+    List<ListAbilityAdapter.Ability> listAbilities;
+
+    ListAbilityAdapter abilityAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_heroe);
 
-        // textView de ejemplo, eliminar para nuevo disenio de activity
-        tv_heroeName = findViewById(R.id.heroeName);
+        listViewAbilities=findViewById(R.id.listaAbilities);
 
         heroe = getIntent().getParcelableExtra("heroe");
-        tv_heroeName.setText(heroe.getName());
 
     }
 }
