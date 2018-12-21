@@ -11,6 +11,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class Heroe implements IHeroes, Parcelable {
 
@@ -97,6 +98,10 @@ public class Heroe implements IHeroes, Parcelable {
     }
     public void setIcon_URL(String icon_URL) {
         this.icon_URL = icon_URL;
+    }
+
+    public List<Ability> getAbilitiesList(){
+        return this.abilitiesList;
     }
 
 
